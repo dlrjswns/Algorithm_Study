@@ -2,6 +2,10 @@
 1. print
     ```Python
     print('Print함수란 무엇인가요 ??')
+    print('안녕하세요', 1, 2) # 안녕하세요12
+
+    a = '이건준'
+    print('안녕하세요', a) # 안녕하세요이건준
     ```
     * 출력시키는 함수
 
@@ -35,7 +39,7 @@
     ```
     * 리스트의 기본 사용법은 대괄호를 이용하는데 배열과 비슷
     * foreach문으로 리스트의 요소를 순회가능
-    * 값을 변경가능하다
+    * 요소값을 변경가능하다
 
     ```Python
     std = ['이건준', '이상준', '문진우']
@@ -54,6 +58,11 @@
 ```Python
 my_tuple = ('요거트', '이에스', '레이')
 my_tuple[0] = '변경될까' # X
+
+my_tuple = (1, 2, 3) 
+my_tuple = 1, 2, 3 # 소괄호를 사용하지않고도 튜플을 선언할 수 있다, 그리고 이를 패킹이라한다
+num1, num2, num3 = my_tuple # 언패킹, num1은 1이 num2는 2가 num3는 3이 삽입
+num1, num2 = num2, num1 # 이렇게하면 우항이 패킹되어 좌항에 언패킹되어 마치 값이 스위칭된것과 동일
 ```
 * 튜플은 리스트와 비슷하지만 다른점이 요소값을 변경할 수 없다
 
@@ -146,3 +155,70 @@ print('나는\n이건준입니다') # '나는'
 print('나는\t이건준입니다') # '나는 이건준입니다'
 ```
 * 대표적인 이스케이프문자로 \n과 \t가 있는데 각각 엔터와 탭을 의미한다
+
+15. for문
+```Python
+for animal in animals:
+    print(animal)
+
+for my_str in "안녕하세요 이건준입니다":
+    print(my_str)
+
+range(3) # [0, 1, 2]
+
+for n in [0, 1, 2]:
+    print(n) # 0, 1, 2
+
+for n in range(3):
+    print(n) # 0, 1, 2
+
+range(3, 5) # 3, 4
+
+for j in range(2, 10):
+    for i in range(1, 10):
+        print('{} x {} = {}'.format(j, i, j*i)) # 이중 for문과 format을 이용하여 구구단을 만들 수도 있음
+```
+* range함수를 이용해서 일일이 숫자를 집어넣지않아도 깔끔하게 선언해줄 수 있다
+
+16. 컴프리헨션
+```Python
+numbers = [1, 2, 3, 4, 5, 6, 7]
+odd_numbers = []
+
+for number in numbers:
+    if number % 2 == 1:
+        odd_numbers.append(number)
+
+odd_numbers = [number for number in numbers if number % 2 == 1] # 이처럼 파이썬에선 컴프리헨션이라는 것을 이용하여 간편하게 코드가능
+```
+
+17. 산술 
+```Python
+2 ** 3 # 8
+4 ** 3 # 64
+7 / 3 # 2.3333333333
+7 // 3 # 2
+7 % 3 # 1
+```
+
+18. 문자열 연산자 
+```Python
+'이건준' + '사랑해' + '알럽' # 이건준사랑해알럽
+'이건준' * 3 # 이건준이건준이건준
+```
+
+19. 논리 연산자 
+```Python
+True and False # False
+True or False # True
+False or False # False
+not False # True
+```
+
+20. 멤버쉽 연산자
+```Python
+list = ['뽀로로', '아구몬', '짱구']
+'뽀로로' in list # True 
+'루피' in list # False
+'루피' not in list # True
+```
