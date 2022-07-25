@@ -1,1 +1,5 @@
-age = input('나이를 입력해주세요')
+from itertools import permutations
+
+data = ['A', 'B', 'C']
+result = list(permutations(data, 3))
+
