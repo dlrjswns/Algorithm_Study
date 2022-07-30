@@ -2,5 +2,10 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/igeonjun/Desktop/Algorithm_Study/Swift_Greedy/%E1%84%89%E1%85%AE%E1%86%BA%E1%84%8C%E1%85%A1%20%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%20%E1%84%80%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7.playground#CharacterRangeLen=88&amp;CharacterRangeLoc=92&amp;EndingColumnNumber=0&amp;EndingLineNumber=8&amp;StartingColumnNumber=4&amp;StartingLineNumber=4&amp;Timestamp=680888230.942517"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>

@@ -34,4 +34,4 @@ func solution02(options: [Int], numbers: [Int]) -> Int {
     return result
 }
 
-solution02(options: [1, 3, 2], numbers: [4, 14, 2])
+solution02(options: [5, 8, 3], numbers: [2, 4, 5, 4, 6])
