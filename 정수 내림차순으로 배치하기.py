@@ -1,5 +1,6 @@
-ls = list(int(str(118372)))
-sr = ls.sort(reverse = True)
-answer = int("".join(sr))
+def solution(n):
+    ls = list(str(n))
+    ls.sort(reverse = True)
+        
+    return int("".join(ls))
 
-print(answer)
