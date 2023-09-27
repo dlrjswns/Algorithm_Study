@@ -14,7 +14,7 @@ while start <= end:
             accountSum += mid
         else:
             accountSum += account
-    print(accountSum)
+    
     if accountSum > M:
         end = mid - 1
     else:
