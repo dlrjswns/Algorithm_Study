@@ -22,3 +22,5 @@ while start <= end:
         end = mid - 1
 
 print(answer)
+
+# 그리디, 그래프탐색, 이분탐색, 다이나믹, 백트래킹, dfs/bfs, 구현
