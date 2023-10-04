@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7031E4172ACC45E40027DC0A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7031E4162ACC45E40027DC0A /* main.swift */; };
+		7031E4192ACD3FA50027DC0A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7031E4182ACD3FA50027DC0A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,7 +45,8 @@
 		7031E40F2AC6B6410027DC0A /* 문자열 집합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 집합.swift"; sourceTree = "<group>"; };
 		7031E4112AC6C2480027DC0A /* 문자열폭발.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열폭발.swift"; sourceTree = "<group>"; };
 		7031E4132AC9B2020027DC0A /* DFS와 BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DFS와 BFS.swift"; sourceTree = "<group>"; };
-		7031E4162ACC45E40027DC0A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7031E4162ACC45E40027DC0A /* 미로탐색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "미로탐색.swift"; sourceTree = "<group>"; };
+		7031E4182ACD3FA50027DC0A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +82,7 @@
 				7031E4152AC9E0FB0027DC0A /* 그래프탐색 */,
 				7031E4072AC40C4B0027DC0A /* 문자열 */,
 				7031E3FC2ABEC1B90027DC0A /* 백준 구현 */,
-				7031E4162ACC45E40027DC0A /* main.swift */,
+				7031E4182ACD3FA50027DC0A /* main.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -125,6 +126,7 @@
 		7031E4152AC9E0FB0027DC0A /* 그래프탐색 */ = {
 			isa = PBXGroup;
 			children = (
+				7031E4162ACC45E40027DC0A /* 미로탐색.swift */,
 				7031E4132AC9B2020027DC0A /* DFS와 BFS.swift */,
 			);
 			name = "그래프탐색";
@@ -190,7 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7031E4172ACC45E40027DC0A /* main.swift in Sources */,
+				7031E4192ACD3FA50027DC0A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
