@@ -2,22 +2,37 @@
 //  main.swift
 //  Algorithm
 //
-//  Created by 이건준 on 2/19/24.
+//  Created by 이건준 on 2/25/24.
 //
 
 import Foundation
 
 let input = readLine()!.split(separator: " ").map { Int(String($0))! }
+
+// N은 헛간의 개수
 let N = input[0], M = input[1]
+var dict: [Int: [Int]] = [:]
 
-var space: [[Int]] = []
-
-for _ in 0..<N {
-  space.append(readLine()!.split(separator: " ").map { Int(String($0))! })
+for _ in 0..<M {
+  let input = readLine()!.split(separator: " ").map { Int(String($0))! }
+  let a_i = input[0], b_i = input[1]
+  dict[a_i, default: []].append(b_i)
+  dict[b_i, default: []].append(a_i)
 }
 
-
-var visited = Array(repeating: Array(repeating: false, count: M), count: N)
-let dx = [0, 0, 1, -1, 1, -1, 1, -1]
-let dy = [1, -1, 0, 0, 1, -1, -1, 1]
-
+func bfs() {
+  
+  var queue: [(currentNumber: Int, distance: Int, count: Int)] = [(1, 0, 0)]
+  var index = 0
+  
+  while queue.count > index {
+    
+    let (currentNumber, distance, count) = queue[index]
+    
+    for num in dict[currentNumber]! {
+      
+    }
+    
+  }
+  
+}
