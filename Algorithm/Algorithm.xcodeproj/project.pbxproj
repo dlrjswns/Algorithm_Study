@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		70D793352BFB898E00AFFC15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D793342BFB898E00AFFC15 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7031E3DC2ABD7F830027DC0A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -121,6 +125,8 @@
 		70AD2A9B2B9481D000CB9791 /* 직사각형 네개의 합집합의 면적 구하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "직사각형 네개의 합집합의 면적 구하기.swift"; sourceTree = "<group>"; };
 		70D7932D2BE0F25600AFFC15 /* 마인크래프트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "마인크래프트.swift"; sourceTree = "<group>"; };
 		70D7932F2BE5455600AFFC15 /* 국회의원 선거.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "국회의원 선거.swift"; sourceTree = "<group>"; };
+		70D793322BE67CC100AFFC15 /* 자리배정.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "자리배정.swift"; sourceTree = "<group>"; };
+		70D793342BFB898E00AFFC15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,7 @@
 				70AD2A7E2B8B7D6A00CB9791 /* 연구소.swift */,
 				70AD2A882B8E1A0400CB9791 /* 숨바꼭질.swift */,
 				70AD2A932B932CF800CB9791 /* N과 M(1).swift */,
+				70D793342BFB898E00AFFC15 /* main.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -215,6 +222,7 @@
 				70AD2A862B8DE70E00CB9791 /* 균형잡힌 세상.swift */,
 				70AD2A9B2B9481D000CB9791 /* 직사각형 네개의 합집합의 면적 구하기.swift */,
 				70D7932D2BE0F25600AFFC15 /* 마인크래프트.swift */,
+				70D793322BE67CC100AFFC15 /* 자리배정.swift */,
 			);
 			name = "백준 구현";
 			path = "백준 구현";
@@ -361,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70D793352BFB898E00AFFC15 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
