@@ -2,7 +2,7 @@
 //  main.swift
 //  Algorithm
 //
-//  Created by 이건준 on 6/7/24.
+//  Created by 이건준 on 6/9/24.
 //
 
 import Foundation
